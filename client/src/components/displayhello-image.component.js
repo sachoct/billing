@@ -73,8 +73,30 @@ people:res
         <div class="container">
                  <h4> Hello IMAGE </h4>
 <img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1600597090/images_movkne.jpg"/>
-<h3>{this.getUser()}</h3><br></br>
-    <h3></h3>
+<h3>{this.getUser()}</h3>  
+
+
+<table className="table col-md-6 mx-auto">
+            <tbody>
+              <tr>
+    
+   <td>Name</td>
+   
+   </tr>
+   {this.state.people.map(person =>(
+            <tr>
+ 
+ <td> {person.username} </td>
+
+
+</tr>
+          ))}
+              
+             
+            </tbody>
+          </table>
+
+
         </div>
     
     );
