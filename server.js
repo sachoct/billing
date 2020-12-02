@@ -23,10 +23,11 @@ connection.once("open", () => {
 
 const exercisesRouter = require("./routes/exercises");
 const usersRouter = require("./routes/users");
-
+const displayusersRouter= require("./routes/displayusers");
 app.use("/exercises", exercisesRouter);
 app.use("/users", usersRouter);
-
+app.use("/displayusers", displayusersRouter);
+//displayusers
 // app.route("/").get((req, res) => {
 //   res.send(
 //     "Hello World, All free course and college projects available at BesidesCollege.org"

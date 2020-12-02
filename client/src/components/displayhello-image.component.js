@@ -7,6 +7,10 @@ export default class DisplayHello extends Component {
   
     getUser(e) {
         alert("hello");
+        axios.get('/displayusers').then(res=> {
+alert(res.data.map(names=>names.username));
+            
+        });
         return(
 
             <div> hello world</div>
