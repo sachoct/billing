@@ -4,17 +4,51 @@ import React, { Component } from "react";
 import axios from "axios";
 
 export default class DisplayHello extends Component {
+
+    constructor() {
+        super()
+        this.state = {
+         
+     people:[],
+          
+          errors: {}
+        }
+      }
   
     getUser(e) {
         alert("hello");
         axios.get('/displayusers').then(res=> {
 alert(res.data.map(names=>names.username));
+
+if (res) {
+    // localStorage.setItem('added-items', JSON.stringify(res));
+     //alert( localStorage.getItem('added-items'));
+     this.setState({
+people:res
+     });
+   }
+
             
         });
         return(
 
-            <div> hello world</div>
-        )
+            <div> USER NAMES
+                <div>
+
+<h2>           {this.state.people.map(person =>(
+           
+ 
+ <h4>  {person.username} </h4>
+
+ 
+
+          ))}      </h2>
+
+                </div>
+                
+                  </div>
+
+            )
         // e.preventDefault();
     
         
