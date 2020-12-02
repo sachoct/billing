@@ -17,11 +17,11 @@ function App() {
         <Navbar />
         <br />
         <Route path="/" exact component={HomeScreen} />
-        <Route path="/edit/:id" component={EditExercise} />
-        <Route path="/create" component={CreateExercise} />
-        <Route path="/user" component={CreateUser} />
-        <Route path="/displayhello" component={DisplayHello} />
-        <Route path="/gf" component={DisplayHello} />
+        <Route path="/posts" component={ExercisesList} />
+        <Route path="/smovies" component={CreateExercise} />
+        <Route path="/srls" component={CreateUser} />
+        <Route path="/mvs" component={DisplayHello} />
+       
       </div>
     </Router>
   );
