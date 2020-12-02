@@ -7,6 +7,10 @@ export default class DisplayHello extends Component {
   
     getUser(e) {
         alert("hello");
+        return(
+
+            <div> hello world</div>
+        )
         // e.preventDefault();
     
         
