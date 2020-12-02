@@ -24,7 +24,7 @@ if (res) {
     // localStorage.setItem('added-items', JSON.stringify(res));
      //alert( localStorage.getItem('added-items'));
      this.setState({
-people:res
+people:res.data
      });
    }
 
@@ -70,7 +70,7 @@ people:res
    <td>Name</td>
    
    </tr>
-   {this.state.people.data.map(names=>
+   {this.state.people.map(names=>
        
        <tr>
     
