@@ -6,7 +6,7 @@ export default class Navbar extends Component {
     return (
      
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-        <h4 style="color=white;"> BEE CREATIVE STUDIOS</h4><br></br>
+       
         <Link to="/" className="navbar-brand">
           HOME
         </Link>
