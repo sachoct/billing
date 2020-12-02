@@ -30,25 +30,7 @@ people:res
 
             
         });
-        return(
-
-            <div> USER NAMES
-                <div>
-
-<h2>           {this.state.people.map(person =>(
-           
- 
- <h4>  {person.username} </h4>
-
- 
-
-          ))}      </h2>
-
-                </div>
-                
-                  </div>
-
-            )
+      
         // e.preventDefault();
     
         
@@ -83,14 +65,7 @@ people:res
    <td>Name</td>
    
    </tr>
-   {this.state.people.map(person =>(
-            <tr>
- 
- <td> {person.username} </td>
-
-
-</tr>
-          ))}
+  
               
              
             </tbody>
