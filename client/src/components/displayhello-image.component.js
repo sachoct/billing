@@ -16,7 +16,7 @@ export default class DisplayHello extends Component {
       }
   
     getUser(e) {
-        alert("hello");
+        
         axios.get('/displayusers').then(res=> {
 
 
@@ -60,11 +60,7 @@ people:res.data
 
 <table className="table col-md-6 mx-auto">
             <tbody>
-              <tr>
-    
-   <td>Name</td>
-   
-   </tr>
+              
    <tr>
     
    <td>Name</td>

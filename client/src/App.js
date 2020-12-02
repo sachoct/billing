@@ -8,18 +8,20 @@ import EditExercise from "./components/edit-exercise.component";
 import CreateExercise from "./components/create-exercise.component";
 import CreateUser from "./components/create-user.component";
 import DisplayHello from "./components/displayhello-image.component";
-
+//HomeScreen C:\herok\app4\client\src\components\Home-screening.component.js
+import HomeScreen from "./components/Home-screening.component";
 function App() {
   return (
     <Router>
       <div className="container">
         <Navbar />
         <br />
-        <Route path="/" exact component={ExercisesList} />
+        <Route path="/" exact component={HomeScreen} />
         <Route path="/edit/:id" component={EditExercise} />
         <Route path="/create" component={CreateExercise} />
         <Route path="/user" component={CreateUser} />
         <Route path="/displayhello" component={DisplayHello} />
+        <Route path="/gf" component={DisplayHello} />
       </div>
     </Router>
   );
