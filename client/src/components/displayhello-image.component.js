@@ -18,7 +18,7 @@ export default class DisplayHello extends Component {
     getUser(e) {
         alert("hello");
         axios.get('/displayusers').then(res=> {
-alert(res.data.map(names=>names.username));
+
 
 if (res) {
     // localStorage.setItem('added-items', JSON.stringify(res));
@@ -65,7 +65,20 @@ people:res
    <td>Name</td>
    
    </tr>
-  
+   <tr>
+    
+   <td>Name</td>
+   
+   </tr>
+   {this.state.people.data.map(names=>
+       
+       <tr>
+    
+       <td>{names.username}</td>
+       
+       </tr>
+   )}       
+       
               
              
             </tbody>
