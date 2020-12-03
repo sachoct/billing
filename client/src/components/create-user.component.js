@@ -15,59 +15,29 @@ export default class ExercisesList extends Component {
 
       <br></br>
       <TableScrollbar>
-    <table>
-      <tr> <th>Recent Serials</th></tr>
-      <tr> <td>
-        
-      <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-        
-        
-        </td></tr>
-
-        <tr> <td>
-        
-        <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" />
-    <Card.Body>
-      <Card.Title>Card Title</Card.Title>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the bulk of
-        the card's content.
-      </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
-    </Card.Body>
-  </Card>
-          
-          
-          </td></tr>
-          <tr> <td>
-        
-        <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" />
-    <Card.Body>
-      <Card.Title>Card Title</Card.Title>
-      <Card.Text>
-        Some quick example text to build on the card title and make up the bulk of
-        the card's content.
-      </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
-    </Card.Body>
-  </Card>
-          
-          
-          </td></tr>
-      
-    </table>
+   <table>
+<th> videos </th>
+<td> jhgh</td>
+<td> jhgh</td>
+<td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td><td> jhgh</td>
+<td> jhgh</td>
+   </table>
   </TableScrollbar>
       </div>
     );
