@@ -17,7 +17,7 @@ function App() {
   // 
   // 
     <Router>
-      <div className="container" style={{ backgroundImage:'url("https://res.cloudinary.com/sachinbisgod/image/upload/v1600597090/images_movkne.jpg")'}} >
+      <div className="container">
         <Navbar />
         <br />
         <Route path="/" exact component={HomeScreen} />

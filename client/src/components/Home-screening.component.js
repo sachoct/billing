@@ -8,7 +8,7 @@ export default class HomeScreen extends Component {
   }
   render() {
     return (
-      <div style={{backgroundColor: "lightblue"}}>
+      <div style={{ backgroundImage:'url("https://res.cloudinary.com/sachinbisgod/image/upload/v1600597090/images_movkne.jpg")'}}>
         <h4 id="wish" style={{color: "yellow"},{textAlign: 'center'}}><b>  WEL-COME TO </b>  </h4>
         <h4 id="nameoforg"  style={{color: "yellow"},{textAlign: 'center'}} > <b> BEE CREATIVE STUDIOS </b></h4>
         <p> </p>
