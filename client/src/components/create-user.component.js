@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import ReactPlayer from "react-player";
-import TableScrollbar from 'react-table-scrollbar';
+
 export default class ExercisesList extends Component {
   
   render() {
@@ -14,7 +14,7 @@ export default class ExercisesList extends Component {
       </a></h4>
 
       <br></br>
-      <TableScrollbar>
+     
    <table>
 <th> videos </th>
 <td> jhgh</td>
@@ -38,7 +38,7 @@ export default class ExercisesList extends Component {
 <td> jhgh</td><td> jhgh</td>
 <td> jhgh</td>
    </table>
-  </TableScrollbar>
+ 
       </div>
     );
   }
