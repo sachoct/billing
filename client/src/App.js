@@ -9,7 +9,7 @@ import CreateExercise from "./components/create-exercise.component";
 import CreateUser from "./components/create-user.component";
 import DisplayHello from "./components/displayhello-image.component";
 import HomeScreen from "./components/Home-screening.component";
-import HomeScreen from "./components/Home-screening.component";
+
 function App() {
   return (
   

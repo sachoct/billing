@@ -25,15 +25,10 @@ export default class HomeScreen extends Component {
        <p  style={{color: "black"}}><b>Contact Us For Film Editing, Visual Effects, Poster Designs, Motion Graphics and Film Making Solutions With Collabarations</b>.</p>
 <p style={{backgroundColor: "gold",color:"green"}}><br></br><b>Contact Info : beecreativestudios2020@gmail.com</b></p>
        <a href="https://www.instagram.com/bee_creativestudios/?fbclid=IwAR15Hjbbh3dRjzrO5tkib9TNIcXkrLp6Hm-sL-_2diNLIqeCe5XQkl38vhQ" ><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/downloads_tmkaqd.jpg" height="40px" width="40px"></img></a>
-      &nbsp;
+     
        <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40px" width="40px"></img></a>
       
-<br></br>
-<h3 id="abutheading" style={{color: "darkmagenta"}}> Address:</h3>
-<br></br><p style={{color: "black"}}> #337, SAURABHA COMPLEX, 10th Main Rd, Nagendra Block, Banashankari Stage I, Bengaluru, Karnataka 560050</p>
-      
 
-        
       </div>
     );
   }
