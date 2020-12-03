@@ -26,7 +26,7 @@ export default class HomeScreen extends Component {
 <p><br></br><b>Contact Info : beecreativestudios2020@gmail.com</b></p>
        <a href="https://www.instagram.com/bee_creativestudios/?fbclid=IwAR15Hjbbh3dRjzrO5tkib9TNIcXkrLp6Hm-sL-_2diNLIqeCe5XQkl38vhQ" ><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/downloads_tmkaqd.jpg" height="40px" width="40px"></img></a>
        <br></br>
-       <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40%" width="40%"></img></a>
+       <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40px" width="40px"></img></a>
        <br></br>
       
 
