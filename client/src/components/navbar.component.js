@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     
        
       
-      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg  navbar-fixed-top">
         <Link to="/" className="navbar-brand">
          BEE CREATIVE STUDIOS
         </Link>
