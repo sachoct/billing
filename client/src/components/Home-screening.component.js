@@ -9,7 +9,7 @@ export default class HomeScreen extends Component {
   render() {
     return (
       <div>
-       <ReactPlayer url= "https://youtu.be/zxqO87EWeNY" controls={true} width="100%" height = "auto"/>
+       <ReactPlayer url= "https://youtu.be/zxqO87EWeNY" controls={true} width="100%" height = "70%"/>
 
         
       </div>
