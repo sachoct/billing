@@ -22,7 +22,7 @@ export default class HomeScreen extends Component {
        <br></br>
        <h3 id="aboutheading" style={{color: "darkmagenta"}}>Contact Us</h3>
 
-       <p  style={{backgroundColor: "brown"}}>Contact Us For Film Editing, Visual Effects, Poster Designs, Motion Graphics and Film Making Solutions With Collabarations.</p>
+       <p  style={{backgroundColor: "black"}}><b>Contact Us For Film Editing, Visual Effects, Poster Designs, Motion Graphics and Film Making Solutions With Collabarations</b>.</p>
 <p style={{backgroundColor: "green"}}><br></br><b>Contact Info : beecreativestudios2020@gmail.com</b></p>
        <a href="https://www.instagram.com/bee_creativestudios/?fbclid=IwAR15Hjbbh3dRjzrO5tkib9TNIcXkrLp6Hm-sL-_2diNLIqeCe5XQkl38vhQ" ><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/downloads_tmkaqd.jpg" height="40px" width="40px"></img></a>
        <br></br>

@@ -1,65 +1,74 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
-
-export default class CreateUser extends Component {
-  constructor(props) {
-    super(props);
-
-    this.onChangeUsername = this.onChangeUsername.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
-
-    this.state = {
-      username: "",
-    };
-  }
-
-  onChangeUsername(e) {
-    this.setState({
-      username: e.target.value,
-    });
-  }
-
-  onSubmit(e) {
-    e.preventDefault();
-
-    const user = {
-      username: this.state.username,
-    };
-
-    console.log(user);
-
-    axios
-      .post("/users/add", user)
-      .then((res) => console.log(res.data));
-
-    this.setState({
-      username: "",
-    });
-  }
-
+import ReactPlayer from "react-player";
+import TableScrollbar from 'react-table-scrollbar';
+export default class ExercisesList extends Component {
+  
   render() {
     return (
       <div>
-        <h3>Create New User</h3>
-        <form onSubmit={this.onSubmit}>
-          <div className="form-group">
-            <label>Username: </label>
-            <input
-              type="text"
-              required
-              className="form-control"
-              value={this.state.username}
-              onChange={this.onChangeUsername}
-            />
-          </div>
-          <div className="form-group">
-            <input
-              type="submit"
-              value="Create User"
-              className="btn btn-primary"
-            />
-          </div>
-        </form>
+       <h4> Our Recent Posters and posts are available here for more visit <a> <a href="https://www.instagram.com/bee_creativestudios/?fbclid=IwAR15Hjbbh3dRjzrO5tkib9TNIcXkrLp6Hm-sL-_2diNLIqeCe5XQkl38vhQ" ><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/downloads_tmkaqd.jpg" height="40px" width="40px"></img></a>
+     
+       <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40px" width="40px"></img></a>
+      </a></h4>
+
+      <br></br>
+      <TableScrollbar>
+    <table>
+      <tr> <th>Recent Serials</th></tr>
+      <tr> <td>
+        
+      <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" />
+  <Card.Body>
+    <Card.Title>Card Title</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Go somewhere</Button>
+  </Card.Body>
+</Card>
+        
+        
+        </td></tr>
+
+        <tr> <td>
+        
+        <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" />
+    <Card.Body>
+      <Card.Title>Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk of
+        the card's content.
+      </Card.Text>
+      <Button variant="primary">Go somewhere</Button>
+    </Card.Body>
+  </Card>
+          
+          
+          </td></tr>
+          <tr> <td>
+        
+        <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" />
+    <Card.Body>
+      <Card.Title>Card Title</Card.Title>
+      <Card.Text>
+        Some quick example text to build on the card title and make up the bulk of
+        the card's content.
+      </Card.Text>
+      <Button variant="primary">Go somewhere</Button>
+    </Card.Body>
+  </Card>
+          
+          
+          </td></tr>
+      
+    </table>
+  </TableScrollbar>
       </div>
     );
   }
