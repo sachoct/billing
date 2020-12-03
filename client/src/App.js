@@ -11,11 +11,7 @@ import DisplayHello from "./components/displayhello-image.component";
 import HomeScreen from "./components/Home-screening.component";
 function App() {
   return (
-    //
-  //
-  // 
-  // 
-  // 
+  
     <Router>
       <div className="container">
         <Navbar />
