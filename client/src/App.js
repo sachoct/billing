@@ -11,8 +11,13 @@ import DisplayHello from "./components/displayhello-image.component";
 import HomeScreen from "./components/Home-screening.component";
 function App() {
   return (
+    //
+  //
+  // 
+  // 
+  // 
     <Router>
-      <div className="container">
+      <div className="container" style={{color: "yellow"},{textAlign: 'center'},{background: url("https://res.cloudinary.com/sachinbisgod/image/upload/v1600597090/images_movkne.jpg")},{ height: '100%'},{repeat: "no-repeat"},{size: cover}} >
         <Navbar />
         <br />
         <Route path="/" exact component={HomeScreen} />
