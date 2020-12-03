@@ -13,32 +13,9 @@ export default class ExercisesList extends Component {
        <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40px" width="40px"></img></a>
       </a></h4>
 
-      <br></br>
      
-   <table>
-<th> videos </th>
-<td> jhgh</td>
-<td> jhgh</td>
-<td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td><td> jhgh</td>
-<td> jhgh</td>
-   </table>
- 
+     <ReactPlayer url= "https://www.youtube.com/watch?v=9Eydvotl_nc" controls={true} width="100%" height = "280px"/>
+   
       </div>
     );
   }

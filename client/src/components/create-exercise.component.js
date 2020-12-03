@@ -1,146 +1,21 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+import ReactPlayer from "react-player";
 
-export default class CreateExercise extends Component {
-  constructor(props) {
-    super(props);
-
-    this.onChangeUsername = this.onChangeUsername.bind(this);
-    this.onChangeDescription = this.onChangeDescription.bind(this);
-    this.onChangeDuration = this.onChangeDuration.bind(this);
-    this.onChangeDate = this.onChangeDate.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
-
-    this.state = {
-      username: "",
-      description: "",
-      duration: 0,
-      date: new Date(),
-      users: [],
-    };
-  }
-
-  componentDidMount() {
-    axios
-      .get("/users/")
-      .then((response) => {
-        if (response.data.length > 0) {
-          this.setState({
-            users: response.data.map((user) => user.username),
-            username: response.data[0].username,
-          });
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }
-
-  onChangeUsername(e) {
-    this.setState({
-      username: e.target.value,
-    });
-  }
-
-  onChangeDescription(e) {
-    this.setState({
-      description: e.target.value,
-    });
-  }
-
-  onChangeDuration(e) {
-    this.setState({
-      duration: e.target.value,
-    });
-  }
-
-  onChangeDate(date) {
-    this.setState({
-      date: date,
-    });
-  }
-
-  onSubmit(e) {
-    e.preventDefault();
-
-    const exercise = {
-      username: this.state.username,
-      description: this.state.description,
-      duration: this.state.duration,
-      date: this.state.date,
-    };
-
-    console.log(exercise);
-
-    axios
-      .post("/exercises/add", exercise)
-      .then((res) => console.log(res.data));
-
-    window.location = "/";
-  }
-
+export default class ExercisesList extends Component {
+  
   render() {
     return (
       <div>
-        <h3>Create New Exercise Log</h3>
-        <form onSubmit={this.onSubmit}>
-          <div className="form-group">
-            <label>Username: </label>
-            <select
-              ref="userInput"
-              required
-              className="form-control"
-              value={this.state.username}
-              onChange={this.onChangeUsername}
-            >
-              {this.state.users.map(function (user) {
-                return (
-                  <option key={user} value={user}>
-                    {user}
-                  </option>
-                );
-              })}
-            </select>
-          </div>
-          <div className="form-group">
-            <label>Description: </label>
-            <input
-              type="text"
-              required
-              className="form-control"
-              value={this.state.description}
-              onChange={this.onChangeDescription}
-            />
-          </div>
-          <div className="form-group">
-            <label>Duration (in minutes): </label>
-            <input
-              type="text"
-              className="form-control"
-              value={this.state.duration}
-              onChange={this.onChangeDuration}
-            />
-          </div>
-          <div className="form-group">
-            <label>Date: </label>
-            <div>
-              <DatePicker
-                selected={this.state.date}
-                onChange={this.onChangeDate}
-              />
-            </div>
-          </div>
+       <h4> Our Recent Posters and posts are available here for more visit <a> <a href="https://www.instagram.com/bee_creativestudios/?fbclid=IwAR15Hjbbh3dRjzrO5tkib9TNIcXkrLp6Hm-sL-_2diNLIqeCe5XQkl38vhQ" ><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/downloads_tmkaqd.jpg" height="40px" width="40px"></img></a>
+     
+       <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40px" width="40px"></img></a>
+      </a></h4>
 
-          <div className="form-group">
-            <input
-              type="submit"
-              value="Create Exercise Log"
-              className="btn btn-primary"
-            />
-          </div>
-        </form>
+     <h4> </h4>
+     <ReactPlayer url= "https://www.youtube.com/watch?v=p2uK_OwjwJw" controls={true} width="100%" height = "280px"/>
+
       </div>
     );
   }

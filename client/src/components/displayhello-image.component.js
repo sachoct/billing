@@ -1,88 +1,22 @@
-//DisplayHello
-
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
+import ReactPlayer from "react-player";
 
-export default class DisplayHello extends Component {
-
-    constructor() {
-        super()
-        this.state = {
-         
-     people:[],
-          
-          errors: {}
-        }
-      }
+export default class ExercisesList extends Component {
   
-    getUser(e) {
-        
-        axios.get('/displayusers').then(res=> {
-
-
-if (res) {
-    // localStorage.setItem('added-items', JSON.stringify(res));
-     //alert( localStorage.getItem('added-items'));
-     this.setState({
-people:res.data
-     });
-   }
-
-            
-        });
-      
-        // e.preventDefault();
-    
-        
-    
-        // axios
-        //   .get("/users/")
-        //   .then((response) =>{
-
-        //   if (response.data.length > 0) {
-        //     this.setState({
-        //       users: response.data.map((user) => user.username),
-        //       username: response.data[0].username,
-        //     }); }}
-        //   )
-        
-
-
-        // return "Names";
-      }
   render() {
     return (
-        <div class="container">
-                 <h4> Hello IMAGE </h4>
-<img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1600597090/images_movkne.jpg"/>
-<h3>{this.getUser()}</h3>  
+      <div>
+       <h4> Our Recent Posters and posts are available here for more visit <a> <a href="https://www.instagram.com/bee_creativestudios/?fbclid=IwAR15Hjbbh3dRjzrO5tkib9TNIcXkrLp6Hm-sL-_2diNLIqeCe5XQkl38vhQ" ><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/downloads_tmkaqd.jpg" height="40px" width="40px"></img></a>
+     
+       <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40px" width="40px"></img></a>
+      </a></h4>
 
+     <h4> </h4>
+     <ReactPlayer url= "https://www.youtube.com/watch?v=9Eydvotl_nc" controls={true} width="100%" height = "280px"/>
 
-<table className="table col-md-6 mx-auto">
-            <tbody>
-              
-   <tr>
-    
-   <td>Name</td>
-   
-   </tr>
-   {this.state.people.map(names=>
-       
-       <tr>
-    
-       <td>{names.username}</td>
-       
-       </tr>
-   )}       
-       
-              
-             
-            </tbody>
-          </table>
-
-
-        </div>
-    
+      </div>
     );
   }
 }

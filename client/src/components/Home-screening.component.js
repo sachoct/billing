@@ -17,7 +17,7 @@ export default class HomeScreen extends Component {
         <h3 id="aboutheading" style={{color: "darkmagenta"}}>Introduction</h3>
        <p>We are very excite to share some info about us in following video ,please do watch</p> 
        
-       <ReactPlayer url= "https://youtu.be/zxqO87EWeNY" controls={true} width="100%" height = "280px"/>
+       <ReactPlayer url= "https://www.youtube.com/watch?v=9Eydvotl_nc" controls={true} width="100%" height = "280px"/>
 
        <br></br>
        <h3 id="aboutheading" style={{color: "darkmagenta"}}>Contact Us</h3>
