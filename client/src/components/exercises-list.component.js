@@ -14,8 +14,21 @@ export default class ExercisesList extends Component {
       </a></h4>
 
      <h4> </h4>
-     <ReactPlayer url= "https://www.youtube.com/watch?v=9Eydvotl_nc" controls={true} width="100%" height = "280px"/>
-
+     <img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607027302/Screenshot_37_ez9epa.png" width="50%" height = "280px"/>
+     
+     <br>
+     </br>
+     <img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607027299/Screenshot_35_rirwpc.png" width="50%" height = "280px"/>
+<br></br>
+<img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607027300/Screenshot_36_osfr6c.png" width="50%" height = "280px"/>
+<br>
+</br>
+<img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607026918/121165676_780461699463668_2175774108316894541_o_hmurzp.jpg" width="50%" height = "280px"/>
+     
+<br>
+</br>
+<img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607026919/122492035_787978555378649_2583205875337754932_o_u7glah.jpg" width="50%" height = "280px"/>
+     
       </div>
     );
   }
