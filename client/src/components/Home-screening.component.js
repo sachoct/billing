@@ -8,7 +8,7 @@ export default class HomeScreen extends Component {
   }
   render() {
     return (
-      <div style={{backgroundColor: "lightblue"}} scrollable="true">
+      <div style={{backgroundColor: "lightblue"}}>
         <h4 id="wish" style={{color: "yellow"},{textAlign: 'center'}}><b>  WEL-COME TO </b>  </h4>
         <h4 id="nameoforg"  style={{color: "yellow"},{textAlign: 'center'}} > <b> BEE CREATIVE STUDIOS </b></h4>
         <p> </p>

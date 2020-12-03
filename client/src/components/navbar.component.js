@@ -12,7 +12,7 @@ export default class Navbar extends Component {
          BEE CREATIVE STUDIOS
         </Link>
        
-        <div className="collapse navbar-collapse justify-content-md-center">
+        <div className="collpase navbar-collapse flexible">
           <br></br>
           <ul className="navbar-nav mr-auto">
             <li className="navbar-item">
