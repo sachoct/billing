@@ -1,6 +1,13 @@
 body {
   margin: 0;
-  background-image: url(https://res.cloudinary.com/sachinbisgod/image/upload/v1600597090/images_movkne.jpg) no-repeat center center fixed;
+  background-image: url(https://res.cloudinary.com/sachinbisgod/image/upload/v1607017454/pexels-photo-268415_lyrli9.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
