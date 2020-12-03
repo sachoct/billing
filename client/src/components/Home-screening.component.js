@@ -11,7 +11,7 @@ export default class HomeScreen extends Component {
       <div>
         <div style={{backgroundColor: "indigo"}}>
         <h4 id="wish" style={{color: "gold"},{textAlign: 'center'}}><b>  WEL-COME TO </b>  </h4>
-        <h4 id="nameoforg"  style={{color: "gold"},{textAlign: 'center'}} > <b> BEE CREATIVE STUDIOS </b></h4>
+        <h4 id="nameoforg"  style={{color: "gold",textAlign: 'center'}} > <b> BEE CREATIVE STUDIOS </b></h4>
         <p style={{color: "white"}} >  <br></br> Kannada Short films, Kannada Feature Films, Visual Effects Studios, Kannada Film Production House. </p>
         </div>
         <h3 id="aboutheading" style={{color: "darkmagenta"}}> ABOUT</h3>
