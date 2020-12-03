@@ -36,7 +36,7 @@ export default class ExercisesList extends Component {
 <h4 style={{backgroundColor: "indigo",color:"gold"}}>AANA:</h4><p style={{color:"black"}}> Happy to be a part of india's first super woman movie </p> <br>
      </br>
 <img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607026919/122492035_787978555378649_2583205875337754932_o_u7glah.jpg" width="50%" height = "280px"/>
-     
+<br></br><p><b>Wish You Happy Married Life Anna (RAJESH BHAT) </b></p>
       </div>
     );
   }

@@ -28,6 +28,10 @@ export default class HomeScreen extends Component {
      
        <a href="https://www.facebook.com/beecreativevfx"><img src="https://res.cloudinary.com/sachinbisgod/image/upload/v1607019738/download_xf3q0k.png" height="40px" width="40px"></img></a>
       
+       <br></br>
+<h3 id="abutheading" style={{color: "darkmagenta"}}> Address:</h3>
+<br></br><p style={{color: "black"}}> #337, SAURABHA COMPLEX, 10th Main Rd, Nagendra Block, Banashankari Stage I, Bengaluru, Karnataka 560050</p>
+      
 
       </div>
     );
