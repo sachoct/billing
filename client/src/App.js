@@ -23,8 +23,7 @@ function App() {
         <Route path="/srls" component={CreateUser} />
         <Route path="/mvs" component={DisplayHello} />
         <Route path="/el" component={EditExercise} />
-       
-       
+            
       </div>
     </Router>
   );
