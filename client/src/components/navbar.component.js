@@ -36,6 +36,7 @@ export default class Navbar extends Component {
                 MOVIES
               </Link>
             </li>
+         
           </ul>
         </div>
       </nav>
